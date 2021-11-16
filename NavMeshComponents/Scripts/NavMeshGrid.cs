@@ -1,6 +1,7 @@
 namespace UnityEngine.AI {
 
     [AddComponentMenu("Navigation/NavMeshGrid", 60)]
+    [ExecuteInEditMode]
     public class NavMeshGrid : MonoBehaviour {
 
         [SerializeField]
